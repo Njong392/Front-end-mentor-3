@@ -7,36 +7,21 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/js/bootstrap.min.js">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+
   
   <title>Frontend Mentor | Clipboard landing page</title>
 
-  <style>
-    body{
-      background-image:url(images/bg-header-desktop.png);
-      background-repeat: no-repeat;
-      color: hsl(201, 11%, 66%);
-      margin-top: 150px;
-      font-size: 18px;
-    
-      font-family: 'Bai Jamjuree';
-    
-    }
-
-    h5{
-      color: hsl(210, 10%, 33%);
-      font-weight: 600;
-
-    }
-
-    h3{
-      color: hsl(210, 10%, 33%);
-      font-weight: 600;
-
-    }
-  </style>
+  
   
 </head>
 <body>
+
+  <div style="padding: 30px 30px 30px 30px;">
 
   <div class="container">
     <div class="row justify-content-center">
@@ -63,13 +48,13 @@
 
   <div class="container">
     <div class="row justify-content-center">
-      <div col-md-8>
-        <button type="button" class="btn btn-outline-transparent rounded-pill mr-3 btn-lg text-white"
-        style="background-color:hsl(171, 66%, 44%);">Download for iOS</button>
+      <div col-md-6>
+        <button type="button" class="btn btn-outline-transparent rounded-pill btn-lg text-white mb-3 shadow-lg"
+        style="background-color:hsl(171, 66%, 44%);font-weight: bold;font-size: 16px;">Download for iOS</button>
       </div>
-      <div col-md-4>
-        <button type="button" class="btn btn-outline-transparent rounded-pill btn-lg text-white"
-        style="background-color: hsl(233, 100%, 69%);">Download for Mac</button>
+      <div col-md-6>
+        <button type="button" class="btn btn-outline-transparent rounded-pill btn-lg text-white ml-3 shadow-lg"
+        style="background-color: hsl(233, 100%, 69%);font-weight: bold;font-size: 16px;">Download for Mac</button>
       </div>
       
 
@@ -100,7 +85,7 @@
   
   <div class="container">
 
-    <div class="row">
+    <div class="row" style="text-align: center;">
       <div class="col-md-7 mb-4">
         <img src="images/image-computer.png" alt="" style="width:95%;height: 100%;">
       </div>
@@ -153,7 +138,7 @@
   <div class="container">
     <div class="row justify-content-center">
 
-      <div class="col-md-8">
+      <div class="col-md-10">
 
         <img src="images/image-devices.png" alt="" style="width: 95%;height: 95%;">
 
@@ -219,11 +204,11 @@
 
   </div>
 
-  <br><br>
+  <br><br><br><br>
 
 
   <div class="container">
-    <div class="row col-md-offset-1">
+    <div class="row col-md-offset-1" style="text-align: center;">
       <div class="col-md-2 mb-5" style="margin-left: 30px;">
         <img src="images/logo-google.png" alt="">
 
@@ -274,14 +259,14 @@
   <div class="container">
     <div class="row justify-content-center">
       <div col-md-6>
-        <button type="button" class="btn btn-outline-transparent rounded-pill mr-3 btn-lg text-white"
-        style="background-color:hsl(171, 66%, 44%);">Download for iOS</button>
+        <button type="button" class="btn btn-outline-transparent rounded-pill btn-lg text-white mb-3 shadow-lg"
+        style="background-color:hsl(171, 66%, 44%);font-weight: bold;font-size: 16px;">Download for iOS</button>
       
       </div>
 
       <div col-md-6>
-        <button type="button" class="btn btn-outline-transparent rounded-pill btn-lg text-white"
-        style="background-color:hsl(223, 100%, 69%);">Download for Mac</button>
+        <button type="button" class="btn btn-outline-transparent rounded-pill btn-lg text-white ml-3 shadow-lg"
+        style="background-color:hsl(223, 100%, 69%);font-weight: bold;font-size: 16px;">Download for Mac</button>
       
       </div>
 
@@ -290,12 +275,14 @@
     </div>
       
   </div>
+
+  </div>
       
   <br><br>
 
   
 
-        <footer class="modal-footer" style="background-color:whitesmoke; width:100; color: hsl(210, 10%, 33%);">
+        <footer class="modal-footer" id="footer" style="background-color:whitesmoke; width:100; color: hsl(210, 10%, 33%);">
 
           <div class="container">
             <div class="row col-md-offset-1">
@@ -331,13 +318,13 @@
       
               <div class="col-md-2 align-self-center" style=" text-align: center;">
                 
-                  <img src="images/icon-facebook.svg" alt="" class="mr-4 ml-3">
+                  <img src="images/icon-facebook.svg" alt="" class="mr-4 ml-2">
       
         
                   <img src="images/icon-twitter.svg" alt="" class="mr-4">
       
             
-                  <img src="images/icon-instagram.svg" alt="" class="mr-4">
+                  <img src="images/icon-instagram.svg" alt="" class="mr-3">
                 
                   
               </div>
@@ -353,12 +340,5 @@
       
       
 
-      </div>
-
-    </div>
-
-  </div>
-    
-  
 </body>
 </html>
